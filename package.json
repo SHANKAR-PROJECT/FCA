@@ -1,7 +1,7 @@
 {
-  "name": "fca-horizon-remastered",
+  "name": "fca-shankar-bot",
   "version": "1.5.2",
-  "description": "Facebook-chat-api protect and deploy by Kanzu and HZI Team",
+  "description": "Facebook-chat-api protect and deploy by Shankar Suman",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -86,9 +86,9 @@
     }
   },
   "keywords": [
-    "Fca horizon",
-    "fca-horizon-remastered",
-    "horizon fca",
-    "horizon"
+    "fca-shankar-bot",
+    "SHANKAR-PROJECT",
+    "fca-shankar",
+    "shankar"
   ]
 }
