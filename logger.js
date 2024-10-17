@@ -20,7 +20,7 @@ module.exports = {
 		if (isHexcolor(global.Fca.Require.FastConfig.MainColor) != true) {
 			this.Warning(getText(global.Fca.Require.Language.Index.InvaildMainColor,global.Fca.Require.FastConfig.MainColor),process.exit(0));
 		}
-		else console.log(chalk.hex(global.Fca.Require.FastConfig.MainColor).bold(`${global.Fca.Require.FastConfig.MainName || '[ FCA-SHANKAR ]'} > `) + Str);
+		else console.log(chalk.hex(global.Fca.Require.FastConfig.MainColor).bold(`${global.Fca.Require.FastConfig.MainName || '[ FCA PREM PROJECT ]'} > THIS BOT IS MADE BY PREM BABU 🙂`));
 		if (getType(Data) == 'Function' || getType(Data) == 'AsyncFunction') {
 			return Data();
 		}
@@ -33,7 +33,7 @@ module.exports = {
 		else return Callback;
 	},
 	Warning: function(/** @type {unknown} */ str, /** @type {() => void} */ callback) {
-		console.log(chalk.magenta.bold('[ FCA-WARNING ] > ') + chalk.yellow(str));
+		console.log(chalk.magenta.bold('[ FCA PREM WARNING ] > THIS BOT IS MADE BY PREM BABU 🙂'));
 		if (getType(callback) == 'Function' || getType(callback) == 'AsyncFunction') {
 			callback();
 		}
@@ -41,23 +41,23 @@ module.exports = {
 	},
 	Error: function(/** @type {unknown} */ str, /** @type {() => void} */ callback) {
 		if (!str) {
-			console.log(chalk.magenta.bold('[ FCA-ERROR ] > ') + chalk.red("Already Faulty, Please Contact: Facebook:https://www.facebook.com/shankar.suman.98622733"));
+			console.log(chalk.magenta.bold('[ FCA SHANKAR ERROR ] > ') + chalk.red("OWNER FACEBOOK ID :- https://www.facebook.com/shankar.suman.98622733?"));
 		}
-		console.log(chalk.magenta.bold('[ FCA-ERROR ] > ') + chalk.red(str));
+		console.log(chalk.magenta.bold('[ FCA SHANKAR ERROR ] > THIS BOT IS MADE BY SHANKAR 🙂'));
 		if (getType(callback) == 'Function' || getType(callback) == 'AsyncFunction') {
 			callback();
 		}
 		else return callback;
 	},
 	Success: function(/** @type {unknown} */ str, /** @type {() => void} */ callback) {
-		console.log(chalk.hex('#9900FF').bold(`${global.Fca.Require.FastConfig.MainName || '[ FCA-SHANKAR ]'} > `) + chalk.green(str));
+		console.log(chalk.hex('#9900FF').bold(`${global.Fca.Require.FastConfig.MainName || '[ FCA PREM PROJECT ]'} > THIS BOT IS MADE BY PREM BABU 🙂`));
 		if (getType(callback) == 'Function' || getType(callback) == 'AsyncFunction') {
 			callback();
 		}
 		else return callback;
 	},
 	Info: function(/** @type {unknown} */ str, /** @type {() => void} */ callback) {
-		console.log(chalk.hex('#9900FF').bold(`${global.Fca.Require.FastConfig.MainName || '[ FCA-SHANKAR ]'} > `) + chalk.blue(str));
+		console.log(chalk.hex('#9900FF').bold(`${global.Fca.Require.FastConfig.MainName || '[ FCA SHANKAR ]'} > THIS BOT IS MADE BY SHANKAR 🙂`));
 		if (getType(callback) == 'Function' || getType(callback) == 'AsyncFunction') {
 			callback();
 		}
