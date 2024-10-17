@@ -9,12 +9,12 @@
   "author": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KanzuXHorizon/Fca-Horizon-Remastered/issues"
+    "url": "https://github.com/SHANKAR-PROJECT/issues"
   },
-  "homepage": "https://github.com/KanzuXHorizon/Fca-Horizon-Remastered#readme",
+  "homepage": "https://github.com/SHANKAR-PROJECT#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/KanzuXHorizon/Fca-Horizon-Remastered.git"
+    "url": "https://github.com/SHANKAR-PROJECT"
   },
   "dependencies": {
     "aes-js": "latest",
